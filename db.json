@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@test.com",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14",
+      "price": 1200,
+      "category": "phones",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S23",
+      "price": 1100,
+      "category": "phones",
+      "rating": 4.6
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "items": [
+        { "productId": 1, "quantity": 1 },
+        { "productId": 2, "quantity": 2 }
+      ],
+      "total": 3400,
+      "status": "paid",
+      "createdAt": "2025-01-15T12:30:00"
+    }
+  ]
+}
